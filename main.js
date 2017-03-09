@@ -25,7 +25,7 @@ document.getElementById("q1").classList.add("status-good");
 //    Then store a string with a word that describes
 //    how well you feel about this course material.
 //    Then display that string within the HTML page.
-var feelings= "not Good"
+var feelings= "not Good";
 document.getElementById("q2").innerHTML = feelings;
 
 
@@ -38,8 +38,8 @@ document.getElementById("q2").innerHTML = feelings;
 //    create a 'message' variable with a greeting,
 //    concat the message and name variables
 //    and then display it within the HTML page.
-var name= "Lee "
-var greeting= "hello world"
+var name= "Lee ";
+var greeting= "hello world";
 document.getElementById("q3").innerHTML = name + greeting;
 
 
@@ -52,8 +52,8 @@ document.getElementById("q3").innerHTML = name + greeting;
 //    Add, subtract, multiply and divide them.
 //    Display the values of each within the HTML page.
 //    Then label these values the best you can.
-var num1= 2
-var num2= 3
+var num1= 2;
+var num2= 3;
 document.getElementById("q4a").innerHTML = num1 + num2;
 document.getElementById("q4b").innerHTML = num2 - num1;
 document.getElementById("q4c").innerHTML = num1 * num2;
@@ -69,9 +69,9 @@ document.getElementById("q4d").innerHTML = num2 / num1;
 //    Create a third variable that concatenates the two strings
 //    that also places the appropriate space between the strings.
 //    Display the value of the third variable within the HTML page.
-var name= "Lee "
-var surName= "Robinson"
-var fullName= name + surName
+var name= "Lee ";
+var surName= "Robinson";
+var fullName= name + surName;
 document.getElementById("q5").innerHTML = fullName;
 
 
@@ -81,8 +81,8 @@ document.getElementById("q5").innerHTML = fullName;
 
 // 6. Add, subract, multiply and divide the strings '5' and '3'.
 //    Observe the results and brieftly explain the results within the HTML page.
-var num3 = "3"
-var num5 = "5"
+var num3 = "3";
+var num5 = "5";
 document.getElementById("q6a").innerHTML = num3 + num5;
 document.getElementById("q6b").innerHTML = num3 - num5;
 document.getElementById("q6c").innerHTML = num3 * num5;
@@ -96,7 +96,7 @@ document.getElementById("q6d").innerHTML = num3 / num5;
 // 7. When a button is clicked, add content into the ID "q7".
 document.getElementById("callAlert").addEventListener("click", function() {
 document.getElementById("q7").innerHTML = "hello";
-})
+});
 
 
 
@@ -122,8 +122,8 @@ document.getElementById("callDoubleNum").addEventListener("click", function () {
 //    Test to see if num1 is greater than num2.
 //    If so, output to the HTML page: Yes, the value of num1 is greater than num2
 //    If not, output to the HTML page: No, the value of num1 is not greater than num2
-var num1 = 5
-var num2 = 10
+var num1 = 5;
+var num2 = 10;
 if (num1 > num2) {
     document.getElementById("q9").innerHTML = ("Yes, the value of " + num1 + " is greater than " + num2);
 } else {
@@ -140,13 +140,13 @@ if (num1 > num2) {
 //    If the score is between 60 and 89, output to the HTML page "Nice work, keep practicing".
 //    If the score is below 59, output to the HTML page "Very bad: study more and retake the test".
 //    Test to make sure each condition is met properly.
-var score = 75
+var score = 75;
 if (score > 90){
-  document.getElementById("q10").innerHTML = ("Great Job")
+  document.getElementById("q10").innerHTML = ("Great Job");
 } else if (score > 60) {
-  document.getElementById("q10").innerHTML = ("Nice work, keep practicing")
+  document.getElementById("q10").innerHTML = ("Nice work, keep practicing");
 } else {
-  document.getElementById("q10").innerHTML = ("Very bad: study more and retake the test")
+  document.getElementById("q10").innerHTML = ("Very bad: study more and retake the test");
 }
 
 
